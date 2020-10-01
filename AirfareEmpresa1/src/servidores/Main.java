@@ -20,7 +20,6 @@ public class Main {
 		Naming.rebind("rmi://127.0.0.1:1099/ServidorEmpresa1", server);
 		
 		System.out.println("----- Servidor da empresa 1 inicializado ------");
-		
 	}
 
 }

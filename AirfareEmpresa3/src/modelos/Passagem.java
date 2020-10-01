@@ -3,10 +3,9 @@ package modelos;
 import java.util.Date;
 
 public class Passagem {
-	String trechoOrigem;
-	String trechoDestino;
-	Date dataDesejada;
-	VooDireto vooDireto;
-	Cliente cliente;
-
+	public String trechoOrigem;
+	public String trechoDestino;
+	public Date dataDesejada;
+	public VooDireto vooDireto;
+	public Cliente cliente;
 }
