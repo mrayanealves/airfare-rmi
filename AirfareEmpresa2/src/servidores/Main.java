@@ -15,9 +15,9 @@ public class Main {
 		
 		InterfaceEmpresa2 server = new ServidorEmpresa2();
 
-		LocateRegistry.createRegistry(1099);
+		LocateRegistry.createRegistry(1100);
 		
-		Naming.rebind("rmi://127.0.0.1:1099/ServidorEmpresa2", server);
+		Naming.rebind("rmi://127.0.0.1:5001/ServidorEmpresa2", server);
 		
 		System.out.println("----- Servidor da empresa 2 inicializado ------");
 		

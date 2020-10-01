@@ -17,7 +17,7 @@ public class Main {
 
 		LocateRegistry.createRegistry(1099);
 		
-		Naming.rebind("rmi://127.0.0.1:1099/ServidorEmpresa1", server);
+		Naming.rebind("rmi://127.0.0.1:5000/ServidorEmpresa1", server);
 		
 		System.out.println("----- Servidor da empresa 1 inicializado ------");
 	}
